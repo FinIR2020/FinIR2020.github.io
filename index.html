@@ -55,13 +55,13 @@
                         <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
                         <li class="hidden"><a href="#page-top"></a></li>
                         <li><a class="page-scroll" href="#section-intro">About</a></li>
-            <li><a class="page-scroll" href="#section-program">Program</a></li>
+                        <li><a class="page-scroll" href="#section-program">Program</a></li>
                         <!--li><a class="page-scroll" href="#section-research-keynote">Keynote</a></li-->
                         <!--li><a class="page-scroll" href="#section-industry-keynote">Industry Keynote</a></li-->
                         <!--li><a class="page-scroll" href="#section-accepted-papers">Accepted Papers</a></li-->
                         <li><a class="page-scroll" href="#section-call">Call for Papers</a></li>
                         <li><a class="page-scroll" href="#section-competition">Grand Challenge</a></li>
-                        <li><a class="page-scroll" href="#section-days">Important Days</a></li>
+                        <!--li><a class="page-scroll" href="#section-days">Important Days</a></li-->
                         <!--li><a class="page-scroll" href="#section-ajenda">Agenda</a></li-->
                         <li><a class="page-scroll" href="#section-organization">Organization</a></li>
                         <li><a class="page-scroll" href="#section-venue">Venue</a></li>
@@ -79,7 +79,7 @@
     <div class="jumbotron text-center">
         <div class="content">
             <div class="event-date">July 25-30, 2020 (Xi'an, China)</div>
-            <h1>FinIR 2020: The First Workshop on Information Retrieval in Finance (FinIR 2020)</h1>
+            <h1>FinIR 2020: The First Workshop on Information Retrieval in Finance</h1>
             <p class="lead">Co-located with The 43st International ACM SIGIR Conference on Research and Development in Information Retrieval</p>
             <!--button type="button" class="btn btn-default btn-lg">STAY IN THE LOOP</button-->
         </div>
@@ -93,11 +93,20 @@
                 <div class="col-md-10">
                     <h2>About</h2>
                     <p class="lead">
-                        The motivation of the workshop is to promote the research and application of Explainable Recommendation and Search, under the background of Explainable AI in a more general sense. Explainable recommendation and search attempt to develop models or methods that not only generate high-quality recommendation or search results, but also intuitive explanations of the results for users or system designers, which can help improve the system transparency, persuasiveness, trustworthiness, and effectiveness, etc.
+                        The FinIR 2020 workshop explores challenges and potential research directions about Information
+                        Retrieval (IR) in finance. The focus will be on stimulating discussions around the accessing,
+                        searching, filtering, and analyzing various financial documents, such as the financial reports,
+                        analyst reports, filling forms, and news reports, in various financial scenarios, such as banking,
+                        insurance, and investment. The workshop aims to bring together a diverse set of researchers and
+                        practitioners interested in investigating relevant topics.
                     </p>
-                    <!--p class="lead">
-                        In a broader sense, researchers in the whole artificial intelligence community have also realized the importance of Explainable AI, which aims to address a wide range of AI explainability problems in deep learning, computer vision, automatic driving systems, and natural language processing tasks. As an important branch of AI research, this highlights the importance our IR/RecSys community to address the explainability issues of various recommendation and search systems.                     
-                    </p-->
+
+                    <p class="lead">
+                        FinIR 2020 welcomes theoretical, experimental, and methodological studies that aim to advance techniques
+                        of managing and understanding financial documents, as well as emphasize the applicability in
+                        practical applications. In addition, FinIR 2020 hosts a grand challenge on quantifying analyst
+                        reports and news reports in multiple languages for commodity price prediction.
+                                        </p>
                     <!--p class="lead">
                         We welcome contributions of both long and short papers from a wide range of topics, including but not limited to explainable recommendation and search models, incorporating multi-modal information for explanation, evaluation of explainable recommendation and search, user study for explainable recommendation and search, etc. More topics are listed in the call for papers.
                     </p-->
@@ -106,7 +115,7 @@
                     <address>
                         <strong>FinIR'20 (co-located with SIGIR'20)</strong><br>
                         Xi'an<br>
-                        Gansu province<br>
+                        Shaanxi province<br>
                         China<br>
                     </address>
                     <!--address>
@@ -156,16 +165,16 @@ table.gridtable td {
         <th>9:00 - 9:05 Welcome and Opening</th>
     </tr>
     <tr>
-        <th>9:00 – 9:35 Keynote Speaker</th>
+        <th>9:00 – 9:35 Keynote</th>
     </tr>
     <tr>
-        <td>TBA</td>
+        <td>Title: TBA</td>
     </tr>
     <tr>
         <th>9:35 – 9:55 Invited Talk 1</th>
     </tr>
     <tr>
-        <td>TBA</td>
+        <td>Title: TBA</td>
     </tr>
     <tr>
         <th>9:55 - 10:00 Grand Challenge Introduction</th>
@@ -186,13 +195,13 @@ table.gridtable td {
         <th>11:00 – 11:20 Invited Talk 2</td>
     </tr>
     <tr>
-        <td>TBA</td>
+        <td>Title: TBA</td>
     </tr>
     <tr>
         <th>11:20-11:40 Invited Talk 3</th>
     </tr>
     <tr>
-        <td>TBA</td>
+        <td>Title: TBA</td>
     </tr>
     <tr>
         <th>11:40-12:10 Contributed Talk * 3</th>
@@ -279,35 +288,47 @@ table.gridtable td {
                 <div class="col-md-10">
                     <h2>Call for Papers</h2>
                     <p class="lead">
-                        FinIR will be a forum for discussion about the challenges in applying IR technologies to unstructured data in finance. The purpose of this workshop is to establish a bridge for communication between industrial researchers and academic researchers, and provide an
-                        opportunity for people to present new work and early results, and discuss the future directions. The themes of focus for the workshop include but not limited to the following topics:
+                        We welcome contributions of regular papers from a wide range of topics, including but not
+                        limited to the following topics of interest:
                         <ol>
                             <li>
+                                <strong>Financial Information Filtering</strong>
+                                --- Research on delivering to financial practitioner the information that is relevant to them, such as:
+                                <ul>
+                                    <li>Financial practitioner profiling</li>
+                                    <li>Financial recommendation</li>
+                                    <li>Financial topic distillation</li>
+                                    <li>Financial text quantification</li>
+                                </ul>
+                            </li>
+
+                            <li>
                                 <strong>Financial Search and Ranking</strong>
-                                <!--ul>
-                                    <li>Explainable shallow models for recommendation and search</li>
-                                    <li>Explainable neural models for recommendation and search</li>
-                                    <li>Explainable sequential modeling</li>
-                                    <li>Explainable optimization algorithms and theories</li>
-                                    <li>Causal inference for explainable recommendation</li>
-                                </ul-->
+                                --- Research on searching and ranking financial documents, such as:
+                                <ul>
+                                    <li>Financial retrieval models</li>
+                                    <li>Financial query analysis</li>
+                                    <li>Financial ranking algorithms</li>
+                                </ul>
                             </li>
 
                             <li>
                                 <strong>Financial Semantics</strong>
+                                --- Research on financial content representation and content analysis, such as:
                                 <ul>
-                                    <li>Financial Representation Learning</li>
-                                    <li>Financial QA and Dialog</li>
-                                    <li>Financial Knowledge Graph</li>
+                                    <li>Financial representation learning</li>
+                                    <li>Financial question answering and dialog</li>
+                                    <li>Financial knowledge graph</li>
                                 </ul>
                             </li>
 
                             <li>
                                 <strong>Financial Applications</strong>
+                                --- Research on domain specific IR applications, such as:
                                 <ul>
-                                    <li>Number Parsing</li>
-                                    <li>Numeric Information Extraction</li>
-                                    <li>Financial Text Quantification</li>
+                                    <li>Financial table retrieval</li>
+                                    <li>Number parsing</li>
+                                    <li>Numeric information extraction</li>
                                 </ul>
                             </li>
 
@@ -317,13 +338,33 @@ table.gridtable td {
                         <strong>PAPER SUBMISSION GUIDLINES</strong>
                     </p>
                     <p class="lead">
-                        <strong>LONG PAPERS</strong> The maximum length is 9 pages (plus up to 1 page of references). Each accepted long paper will be presented in a plenary session. Each accepted long paper will also be allocated a presentation slot in a poster session to encourage discussion and follow up between authors and attendees.
+                        The maximum length of FinIR 2020 submission is 4 pages (plus up to 1 page of references). Each accepted paper will be
+                        presented in a plenary session.
                     </p>
                     <p class="lead">
-                        All papers will be peer reviewed by the program committee and judged by their relevance to the workshop, especially to the topics, and their potential to generate discussion. To facilitate interaction and simulate discussion, we limit the number of participants to 40. FinIR 2020 submissions should be prepared according to the standard double-column ACM SIG proceedings format. Additional information about formatting and style files is available on the ACM <a href="https://www.acm.org/publications/proceedings-template" target="_blank">website</a>. Papers must be submitted to easychair at <a href=" https://easychair.org/conferences/?conf=ears2018" target="_blank"> https://easychair.org/conferences/?conf=ears2018</a> by 23:59, AoE (Anywhere on Earth) on May 15th, 2018.
+                        FinIR 2020 submissions are double-blind. All papers will be peer reviewed by the program committee and judged by their relevance to the
+                        workshop, especially to the topics, and their potential to generate discussion. To facilitate
+                        interaction and simulate discussion, we limit the number of participants to 40. FinIR 2020
+                        submissions should be prepared according to the standard double-column ACM SIG proceedings format.
+                        Additional information about formatting and style files is available on the
+                        <a href="https://www.acm.org/publications/proceedings-template" target="_blank">ACM website</a>.
+                        Papers must be submitted to easychair at
+                        <a href=" https://easychair.org/conferences/?conf=finir2020" target="_blank"> submission site</a>
+                        by 23:59, AoE (Anywhere on Earth) on May 31st (Abstract) and June 5th (Full-paper), 2020.
                     </p>
                     <p class="lead">
-                        For inquires about the workshop and submissions, please email to <a href="mailto:ears2018@easychair.org" target="_top">ears2018@easychair.org</a>
+                        For inquires about the workshop and submissions, please email to <a href="mailto:finir2020@easychair.org" target="_top">finir2020@easychair.org</a>
+                    </p>
+
+                    <p class="lead">
+                        <strong>IMPORTANT DATES</strong>
+                    </p>
+                    <p class="lead">
+                        All time are 23:59, AoE (Anywhere on Earth)<br/>
+                        June 5, 2020: Submission due<br/>
+                        June 15, 2020: Paper notification<br/>
+                        June 30, 2020: Camera ready submission<br/>
+                        July 30, 2020: Workshop day
                     </p>
                 </div>
 
@@ -337,7 +378,36 @@ table.gridtable td {
             <div class="row">
                 <div class="col-md-10">
                     <h2>Grand Challenge</h2>
-                    <h3>Challenge organizor</h3>
+                    <p class="lead">
+                        FinIR 2020 hosts a grand challenge to facilitate landing IR techniques in practice. The grand
+                        challenge is focused on the commodity market with financial documents of news reports and analyst
+                        reports in multiple languages at scale. Commodities are homogeneous, tradable and widely used as
+                        the raw materials for industry, such as crude oil, steel, and agricultural products. Commodity
+                        prices are influenced by many factors such as economy development, trading policy, geopolitics, etc.,
+                        which are recorded in relevant documents such as news reports and analyst reports. Mining influential
+                        factors from the streaming of these documents is of great practical value to predict the future
+                        price movement of commodity and facilitate various stake holders (e.g., factories) making profitable
+                        decisions in time.
+                    </p>
+                    <p class="lead">
+                        The target of the grand challenge is to predict the price movement direction of a commodity at
+                        different time-horizons, such as 1-day, 20-day, and 60-day, by additionally analyzing the financial
+                        documents. The time-horizon is the number of trading days between the current trading day and the
+                        expected trading day. This competition mainly focuses on the six base metals: Copper, Aluminum,
+                        Lead, Nickel, Zinc and Tin. For details and registration of the challenge, please visit
+                        <a href="https://to-be-updated" target="_blank">FinIR 2020 Grand Challenge</a> .
+                    </p>
+
+                    <p class="lead">
+                        <strong>Challenge Organizers</strong>
+                    </p>
+                    <p class="lead">
+                        Jiangeng Chang (National University of Singapore, Singapore)<br/>
+                        Jiaxian Guo (National University of Singapore, Singapore)<br/>
+                        Shuai Huo (MegaTech.AI, Beijing, China)<br/>
+                        Ritchie Ng (Hessian Private Limited, Singapore)<br/>
+                    </p>
+                    <!--h3>Challenge organizor</h3>
                     <p class="lead">
                         Jiangeng Chang (National University of Singapore - Singapore)<br/>
                         Jiaxian Guo (National University of Singapore - Singapore)<br/>
@@ -371,32 +441,32 @@ table.gridtable td {
                     </p>
                     <p class = "lead">
                         Second stage timeline: June 18-June 25
-                    </p>                  
+                    </p-->
                 </div>
             </div>
         </div>
     </section>
 
 
-    <section id="section-days" class="section-wrapper about-event">
+    <!--section id="section-days" class="section-wrapper about-event">
         <div class="container">
             <div class="row">
                 <div class="col-md-10">
                     <h2>Important Days</h2>
-                    <!--p class="lead">
+                    <p class="lead">
                         All time are 23:59, AoE (Anywhere on Earth)<br/>
                         May 15, 2018: Submission due<br/>
                         May 31, 2018: Paper notification<br/>
                         June 20, 2018: Camera ready submission<br/>
                         July 12, 2018: Workshop day
-                    </p-->
+                    </p>
                     <p class="lead">
                         TBA
                     </p>
                 </div>
             </div>
         </div>
-    </section>
+    </section-->
     <!--Important Days-->
 
     <section id="section-organization" class="section-wrapper about-event">
