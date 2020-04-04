@@ -118,6 +118,8 @@ a:focus {
 
 p {
     margin-bottom : 20px;
+    text-align: justify;
+    text-justify: inter-character;
     }
 
 p.lead {
