@@ -118,14 +118,20 @@ a:focus {
 
 p {
     margin-bottom : 20px;
-    text-align: justify;
-    text-justify: inter-character;
     }
 
 p.lead {
     font-size   : 19px;
     line-height : 1.7em;
+    text-align: justify;
+    text-justify: inter-character;
     }
+
+p.leadtitle {
+    font-size   : 19px;
+    line-height : 1.7em;
+    }
+
 
 ul {
     margin     : 0;
